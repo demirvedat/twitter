@@ -31,8 +31,18 @@ body{
 }
 
 /* =========== home-top=========== */
+.home-con{
+    padding: 10px;
+    border: 0.01px solid grey;
+}
+.home{
+    border-top: 0.01px solid grey;
+}
+.img-part{
+    border: 0.3px solid grey;
+    
+}
 .home-top{
-    /* background-color: rgb(31, 31, 31); */
     height:100px ;
 }
 .blur{
@@ -41,7 +51,7 @@ body{
     background-color: rgb(31, 31, 31);
     opacity: 0.5;
 }
-.deneme{
+.for-opa{
     width: 100%;
     height: 100px;
     position: absolute;
@@ -58,6 +68,9 @@ body{
     padding: 15px;
     
 }
+.home-top-btns a:focus{
+    border-bottom: 3px solid rgba(2, 125, 240, 0.952);
+}
 /* =========== Share tweet part =========== */
 .prfl-pic{
     width: 50px;
@@ -71,7 +84,7 @@ body{
 }
 .search-con svg{
    
-    border-right: 0ch;
+    border-right: 0ch !important;
     border-top-left-radius:50px ;
     border-bottom-left-radius:50px ;
     background-color: rgba(31, 31, 31);
@@ -79,7 +92,10 @@ body{
 .search{
     border-top-right-radius:50px ;
     border-bottom-right-radius:50px ;
-} 
+    
+}
+
+
 /* ========= Agenta =================== */
 .agenda{
     background-color:rgb(31, 31, 31);
