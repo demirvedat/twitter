@@ -3,22 +3,17 @@
     padding: 0%;
     box-sizing: border-box;
 }
-body{
-    background-color: black !important;
-    color: white;
-}
-
 /* =========== Header=========== */
 .nav-link{
-    color: rgba(255, 255, 255, 0.89);
+    color: black;
     font-size: 22px;
     font-weight: 500;
 }
 .nav-link:hover{
-    color: white;
+    color: black;
 }
 .nav-item svg{
-    fill: rgba(255, 255, 255, 0.897);
+    fill: black;
     
 }
 .tweetle{
@@ -33,10 +28,10 @@ body{
 /* =========== home-top=========== */
 .home-con{
     padding: 10px;
-    border: 0.01px solid grey;
+    border: 0.5px solid rgb(207, 207, 207);
 }
 .home{
-    border-top: 0.01px solid grey;
+    border-top: 0.01px solid rgb(197, 197, 197);
 }
 .img-part{
     border: 0.3px solid grey;
@@ -48,7 +43,7 @@ body{
 .blur{
     width: 100%;
     height: 100px;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(214, 214, 214);
     opacity: 0.5;
 }
 .for-opa{
@@ -63,13 +58,13 @@ body{
 .home-top-btns a{
     width: 50%;
     text-decoration: none;
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px;
     
 }
 .home-top-btns a:focus{
-    border-bottom: 3px solid rgba(2, 125, 240, 0.952);
+    border-bottom: 3px solid rgb(0, 174, 243);
 }
 /* =========== Share tweet part =========== */
 .prfl-pic{
@@ -78,7 +73,6 @@ body{
 }
 /* =========== right part  =========== */
 .right-part{
-    background-color:rgb(31, 31, 31);
     border-radius: 15px;
     padding: 10px;
 }
@@ -87,18 +81,36 @@ body{
     border-right: 0ch !important;
     border-top-left-radius:50px ;
     border-bottom-left-radius:50px ;
-    background-color: rgba(31, 31, 31);
 }
 .search{
     border-top-right-radius:50px ;
     border-bottom-right-radius:50px ;
+    outline:none;
     
 }
 
 
 /* ========= Agenta =================== */
 .agenda{
-    background-color:rgb(31, 31, 31);
     margin-bottom: 10px;
     
+}
+
+/* ========= Profil =================== */
+.edit-profil{
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgb(206, 206, 206) !important;
+}
+.edit-profil:hover{
+    border: 1px solid grey;
+    background-color: rgb(230, 230, 230);
+}
+#mytab .nav-item button{
+    font-size:15px !important;
+    font-weight: 700 !important;
+}
+#mytab .nav-item button:focus{
+    color: black !important;
+    border-bottom: 4px solid rgb(0, 174, 243);
 }
